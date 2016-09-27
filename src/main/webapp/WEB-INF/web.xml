@@ -8,7 +8,6 @@
         <servlet-name>generalServlet</servlet-name>
         <url-pattern>/buildwar/</url-pattern>
     </servlet-mapping>
-
     <servlet>
         <servlet-name>welcome</servlet-name>
         <jsp-file>/welcome.jsp</jsp-file>
