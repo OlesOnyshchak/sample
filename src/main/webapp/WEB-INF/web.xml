@@ -8,4 +8,13 @@
         <servlet-name>generalServlet</servlet-name>
         <url-pattern>/buildwar/</url-pattern>
     </servlet-mapping>
+
+    <servlet>
+        <servlet-name>welcome</servlet-name>
+        <jsp-file>/welcome.jsp</jsp-file>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>welcome</servlet-name>
+        <url-pattern>/buildwarjsp/</url-pattern>
+    </servlet-mapping>
 </web-app>
