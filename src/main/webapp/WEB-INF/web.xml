@@ -1,0 +1,11 @@
+<web-app>
+    <servlet>
+        <servlet-name>generalServlet</servlet-name>
+        <servlet-class>com.sample.general.servlet.VersionInfoServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>generalServlet</servlet-name>
+        <url-pattern>/buildwar/</url-pattern>
+    </servlet-mapping>
+</web-app>
